@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Kontak Saya</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3e5f5;
+      margin: 0;
+    }
+    header, footer {
+      background-color: #6a1b9a;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+    nav {
+      background-color: #ab47bc;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      background-color: #8e24aa;
+      border-radius: 5px;
+    }
+    section {
+      text-align: center;
+      padding: 30px;
+    }
+    form {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      display: inline-block;
+    }
+    input, textarea {
+      width: 250px;
+      padding: 8px;
+      margin: 5px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    input[type="submit"] {
+      background-color: #8e24aa;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    input[type="submit"]:hover {
+      background-color: #6a1b9a;
+    }
+    iframe {
+      margin-top: 30px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Hubungi Saya</h1>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<section>
+  <h3>Formulir Kontak</h3>
+  <form action="#" method="post">
+    <input type="text" name="nama" placeholder="Nama" required><br>
+    <input type="email" name="email" placeholder="Email" required><br>
+    <textarea name="pesan" rows="4" placeholder="Pesan Anda..." required></textarea><br>
+    <input type="submit" value="Kirim">
+  </form>
+
+  <h3>Lokasi Saya</h3>
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.4685829133276!2d99.072!3d2.046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x302e04a3a3b5a18b%3A0x56a4ee1b3f37c241!2sSipoholon!5e0!3m2!1sid!2sid!4v1234567890" 
+    width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+  </iframe>
+</section>
+
+<footer>
+  &copy; 2025 D. Santa Riyani Situmeang
+</footer>
+
+</body>
+</html>
